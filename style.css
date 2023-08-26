@@ -1,0 +1,48 @@
+body{
+    height:100vh;
+    background:linear-gradient(
+        #8052ec,
+        #d161ff
+        );
+}
+
+.d-flex {
+    height:fit-content;
+    border:2px solid white;
+    margin-top:50px;
+    padding:30px;
+}
+
+.paragraph-styling{
+    color:#d161ff;
+    text-decoration:underline;
+    text-decoration-color:black;
+
+}
+#addToDo{
+    background-color:#8052ec;
+    margin-left:10px;
+    color:#ffffff;
+}
+.h1{
+    width: 200px;
+    text-align: center;
+    font-family:cursive;
+    text-decoration:underline ;
+    margin-left:120px;
+    color:#ffffff;
+}
+.to-dos{
+    width:390px;
+    background-color: #ffffff;
+    border-radius:10px;
+    margin-top:30px;
+    padding:20px 20px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+#inputField:focus{
+    border-color:#8052ec;
+}
+#inputField::placeholder{
+    font-size: medium;
+}
